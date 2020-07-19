@@ -1,10 +1,10 @@
 const { hello } = require("./hello");
-const { roll_dice } = require("./roll_dice");
+const { roll } = require("./roll");
 
 // list all commands here with the value as the function it points to
 const commands = {
   hello: hello,
-  "roll dice": roll_dice,
+  roll: roll,
 };
 
 exports.commands = commands;

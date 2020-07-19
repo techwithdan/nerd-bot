@@ -11,7 +11,7 @@ const randomGreetings = [
 
 function hello(msg) {
   const randomIndex = randomGenerator(randomGreetings.length);
-  msg.reply(randomGreetings[randomIndex]);
+  msg.channel.send(randomGreetings[randomIndex]);
 }
 
 exports.hello = hello;

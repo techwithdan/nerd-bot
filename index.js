@@ -4,7 +4,6 @@ const bot = new discord.Client();
 const token = process.env.BOT_TOKEN;
 const { proccessMessage } = require("./events/message");
 
-
 bot.on("ready", () => {
   console.log("this bot is online");
 });
