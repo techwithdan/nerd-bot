@@ -22,3 +22,9 @@ COMMANDS
 HELPER_FUNC
 
 - Re-usable functions to reference.
+
+CONTRIBUTORS 
+
+- Daniel
+- Dalton
+- Victor
