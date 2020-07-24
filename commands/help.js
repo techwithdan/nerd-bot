@@ -2,8 +2,9 @@ function help(msg) {
   const embedOject = {
     embed: {
       title: "Things I can do",
+      color: "0x40e0d0",
       description:
-        "Run any of the following commands using ! as a prefix e.g !roll. Any commands followed by ${} means that it is placeholder for an actual value be passed",
+        "Run any of the following commands using ! as a prefix e.g !roll. Any commands followed by {} means that it is placeholder for an actual value be passed",
       fields: [
         {
           name: "!roll",
@@ -18,8 +19,9 @@ function help(msg) {
           value: "Provides a list of commands for you to enjoy",
         },
         {
-          name: "!delete ${number}",
-          value: "Delete messages from bottom up where",
+          name: "!delete messages {number}",
+          value:
+            "Delete messages from bottom up where {number} is the amount of messages to be deleted",
         },
       ],
     },

@@ -1,5 +1,6 @@
 nerd-bot
 
+Must use Node version 13+
 run `npm i` to install dependencies
 
 ENTRY
