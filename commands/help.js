@@ -27,7 +27,10 @@ function help(msg) {
           name: "!cats",
           value: "Provides a random fact about cats"
         },
-        
+        {
+          name: "!advice",
+          value: "Gives random advice that may help you out"
+        }
       ],
     },
   };
