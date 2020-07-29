@@ -23,6 +23,11 @@ function help(msg) {
           value:
             "Delete messages from bottom up where {number} is the amount of messages to be deleted",
         },
+        {
+          name: "!cats",
+          value: "Provides a random fact about cats"
+        },
+        
       ],
     },
   };
